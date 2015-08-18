@@ -1,0 +1,16 @@
+html,body {
+  background-color: #ededed;
+}
+#gb_msg {
+  
+}
+
+#gb_box {
+  max-width: 980px;
+  padding: 10px;
+  margin: auto;
+}
+
+#ps_name {
+  font-size: 1.6em;
+}
