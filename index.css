@@ -238,3 +238,89 @@ a:hover {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+
+#gb_axis {
+  border-left: 3px solid #00b1ff;
+  padding-left: 10px;
+}
+
+.gb_axis_tit {
+  position: relative;
+  overflow: hidden;
+  line-height: 25px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-left: -14px;
+  border-left: 4px solid #000000;
+  padding-left: 15px;
+}
+
+.gb_axis_name {
+  padding-right: 10px;
+  background-color: #fff;
+  float: left;
+  margin: 0;  
+  border-bottom: 1px solid #fff;
+}
+
+.gb_axis_des {
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.8em;
+  color: #9d9d9d;
+  padding-right: 10px;
+  vertical-align: sub;
+}
+
+.gb_axis_un {
+  padding: 0 5px;
+  border-right: 1px solid #9d9d9d;
+}
+
+.gb_axis_un:last-child {
+  border: 0;
+}
+.showhide {
+  float: right;
+}
+
+.gb_axis_dt {
+  position: relative;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-left: -14px;
+  border-left: 4px solid #ff9300;
+  padding-left: 13px;
+}
+
+.gb_axis_dd {
+  text-indent: 2em;
+  padding: 10px 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.gb_axis_img {
+  float: right;
+}
+
+.icon-outer-box {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  height: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+/*  background-color: #fff;*/
+}
+
+.icon-cas {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+/*  line-height: 10px;*/
+  border-radius: 50%;
+  background-color: #ff9300;
+}
